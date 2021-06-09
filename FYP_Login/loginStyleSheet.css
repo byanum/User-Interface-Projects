@@ -1,0 +1,67 @@
+/* To provide gradient background on whole page*/
+.fullPageBody {
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #000428 , #004e92);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/* Centre black box  ***/
+.login-box {
+    
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 100px;
+}
+/* Header: Login*/
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+/* Form Input Fields: text and password*/
+.loginBox input[type="text"], .loginBox input[type="password"]
+{
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+/* Changes color when input field is clicked*/
+.loginBox input[type="text"]:focus, .loginBox input[type="password"]:focus{
+    width: 270px;
+    border-color: #38ef7d;
+}
+/*Submit Button */
+.loginBox input[type="submit"]{
+    background: none;
+    display: block;
+    margin:  20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding:  10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+/* Placeholder color*/
+::placeholder { 
+    color: #F2F2F2;
+    opacity: 0.8; 
+}
